@@ -1,0 +1,17 @@
+@import url(../__image/cards__image.css);
+@import url(../__title/cards__title.css);
+@import url(../__description/cards__description.css);
+
+.cards__item {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-right: 100px;
+}
+
+.cards__item:nth-last-of-type(3) {
+    margin-right: 0;
+} 
