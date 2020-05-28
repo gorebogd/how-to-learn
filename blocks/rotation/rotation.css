@@ -8,5 +8,5 @@
 }
 .rotation {
     transform:rotate(-15deg);
-    animation:rotation linear 20s infinite
+    animation:rotation linear 20s infinite;
 }
